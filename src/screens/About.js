@@ -1,8 +1,14 @@
 //boilerplate code
 
 import React from "react";
+import Title from "../components/Title";
 
 function About() {
-    return <h1>This is About Page.</h1>
+    return <div>
+        <Title name = "General"/>
+        <p>this is paragraph.</p>
+        <Title name = "Node js title" />
+        <Title name = "props title" />
+    </div>
 }
 export default About;
