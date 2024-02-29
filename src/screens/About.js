@@ -5,10 +5,10 @@ import Title from "../components/Title";
 
 function About() {
     return <div>
-        <Title name = "General"/>
+        <Title value = "General"/>
         <p>this is paragraph.</p>
-        <Title name = "Node js title" />
-        <Title name = "props title" />
+        <Title value = "Node js title" />
+        <Title value = "props title" />
     </div>
 }
 export default About;
