@@ -1,6 +1,6 @@
 
 import './App.css';
-import About from './screens/About.js';
+import About from './screens/About'
 
 function App() {
   return (
