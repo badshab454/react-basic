@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Paragraph = (props) => {
+const Paragraph = ({fName, lName}) => {
     return <div>
-        <p>{props.value}</p>
+        <p>{fName}</p>
+        <p>{lName}</p>
     </div>
 }
 
