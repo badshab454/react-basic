@@ -1,11 +1,10 @@
 
-import './App.css';
-import Register from './screens/Register';
+
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      <h2>Hello React</h2>
     </div>
   );
 }
