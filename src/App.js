@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <h2 style={{ color: "red", backgroundColor: "Green" }}>Hello React</h2>
       <BasicExample />
+      <h2 className='text-5xl'>Badsha Hossain</h2>
     </div>
   );
 }
