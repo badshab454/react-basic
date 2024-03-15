@@ -1,6 +1,7 @@
 import './index.css';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import {FaBeer} from 'react-icons/fa'
 
 function BasicExample() {
   return (
@@ -18,7 +19,7 @@ function App() {
     <div className="App">
       <h2 style={{ color: "red", backgroundColor: "Green" }}>Hello React</h2>
       <BasicExample />
-      <h2 className='text-5xl'>Badsha Hossain</h2>
+      <h2 className='text-5xl'>Badsha <FaBeer /> Hossain</h2>
     </div>
   );
 }
