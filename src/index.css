@@ -1,32 +1,4 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.counter {
-    background-color: blueviolet;
-    height: 100vh;
-    width: 100%;
-    color: #fff;
-    padding-top: 20px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 100px;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    color: #fff;
-}
-
-.btun {
-    padding: 10px;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 20px;
-    background-color: rgb(22, 2, 2);
+* {
+  margin: 0;
+  padding: 0;
 }
