@@ -1,27 +1,8 @@
-import './index.css';
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import {FaBeer} from 'react-icons/fa'
-
-function BasicExample() {
-  return (
-    <ButtonGroup aria-label="Basic example">
-      <Button variant="secondary">Left</Button>
-      <Button variant="secondary">Middle</Button>
-      <Button variant="secondary">Right</Button>
-    </ButtonGroup>
-  );
-}
-
+import "./index.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h2 style={{ color: "red", backgroundColor: "Green" }}>Hello React</h2>
-      <BasicExample />
-      <h2 className='text-5xl'>Badsha <FaBeer /> Hossain</h2>
-    </div>
-  );
+  return <div className="App">
+  </div>;
 }
 
 export default App;
